@@ -1,54 +1,58 @@
 body {
-  	text-align: center;
- 	background:  url("img/bg-05.jpg") no-repeat;
-  	/* background: #000; */
+ 	background:  url("img/expoline.jpg");
 	background-size: cover;
-  	background-repeat: repeat-y;
+  	/*background-repeat: repeat-y;*/
 }
 
+h1 {
+	
+	font-family: helvetica;
+	font: bold 30px Helvetica, sans-serif;
+	color:#FFF;
+	text-shadow: 1px 1px 1px #000
+}
+
+div.text {
+	padding-left: 15px;
+	padding-right: 15px;
+	font: normal 18px Helvetica, sans-serif;
+	color:#FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+/* p {
+	padding-left: 10px;
+	padding-right: 10px;
+	font: normal 18px Helvetica, sans-serif;
+	color:#FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+*/
+	
 div.profilephoto {
-	position: relative;
 	padding-top: 10px;
 	padding-bottom: 10px;
- 	margin-left: auto ;
+	margin-left: auto ;
  	margin-right: auto ;
 	
 }
 
 div.center {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	background-color: rgba(50, 50, 50, 0.70);
 	width: 380px ;
 	margin-left: auto ;
 	margin-right: auto ;
-	background: #696969;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
     border: 2px dashed;
-    -webkit-border-radius: 8px;
-    border-radius: 20px;
-    color: #fff;
-    text-align: center;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
+    border-radius: 10px;
  }
  
 div.social {
 	width: 290px; 
  	margin-left: auto ;
  	margin-right: auto ;
-	padding-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 5px ;
 }
- 
- 
-p {
-	
-    font-family: helvetica;
-	font: normal 18px Helvetica, sans-serif;
-	color:#FFF;
-	text-shadow: 1px 1px 1px #000;
-}
+
 
 .cf:before,
 .cf:after {
