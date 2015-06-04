@@ -28,7 +28,7 @@ div.text {
 }
 */
 	
-div.profilephoto {
+div.profilephotodiv {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-left: auto ;
@@ -53,6 +53,11 @@ div.social {
 	padding-bottom: 5px ;
 }
 
+img.profilephoto {
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
+}
 
 .cf:before,
 .cf:after {
