@@ -1,0 +1,269 @@
+.csmb, .csmb-flat {
+	background-image: url("../img/icon-sprite.png");
+	background-repeat: no-repeat;
+	transition: background-color 0.25s ease;
+	text-indent: -9999px;
+	font-size: 0;
+	line-height: 0;
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	margin: 4px;
+	padding: 0;
+	position: relative; }
+
+.csmb:before, .csmb:after, .csmb-flat:before, .csmb-flat:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+a.csmb:hover, a.csmb:focus, a.csmb:active, a.csmb-flat:hover, a.csmb-flat:focus, a.csmb-flat:active, button.csmb:hover, button.csmb:focus, button.csmb:active, button.csmb-flat:hover, button.csmb-flat:focus, button.csmb-flat:active {
+	outline: none; }
+
+.csmb:before {
+	box-shadow: 0 0 4px 0 #aaaaaa; }
+.csmb:after {
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%); }
+
+.csmb-flat:before {
+	box-shadow: 0 0 1px 0 #aaaaaa; }
+
+.csmb-rounded, .csmb-rounded:before, .csmb-rounded:after {
+	border-radius: 25%; }
+
+.csmb-round, .csmb-round:before, .csmb-round:after {
+	border-radius: 50%; }
+
+.csmb-border:before {
+	border: solid 2px #fff;
+	width: 32px;
+	height: 32px;
+	top: -4px;
+	left: -4px; }
+.csmb-border:after {
+	transition: border-color 0.25s ease;
+	top: -2px;
+	left: -2px; }
+.csmb-border.csmb-rounded {
+	border-radius: 20%; }
+
+.facebook {
+	background-color: #3b5998;
+	background-position: 0 0; }
+.facebook.csmb {
+	box-shadow: inset 0 1px 2px 0 #839ccf; }
+.facebook.csmb-border:after {
+    border: solid 2px #2d4373; }
+
+a.facebook:hover, a.facebook:focus, button.facebook:hover, button.facebook:focus {
+	background-color: #4c70ba; }
+a.facebook:active, button.facebook:active {
+	background-color: #2d4373; }
+a.facebook.csmb-border:hover:after, a.facebook.csmb-border:focus:after, a.facebook.csmb-border:active:after, button.facebook.csmb-border:hover:after, button.facebook.csmb-border:focus:after, button.facebook.csmb-border:active:after {
+	border: solid 2px #223358; }
+
+.flickr {
+	background-color: #f4f4f4;
+	background-position: 0 -28px; }
+.flickr.csmb {
+	box-shadow: inset 0 1px 2px 0 white; }
+.flickr.csmb-border:after {
+	border: solid 2px #dbdbdb; }
+
+a.flickr:hover, a.flickr:focus, button.flickr:hover, button.flickr:focus {
+	background-color: white; }
+a.flickr:active, button.flickr:active {
+	background-color: #dbdbdb; }
+a.flickr.csmb-border:hover:after, a.flickr.csmb-border:focus:after, a.flickr.csmb-border:active:after, button.flickr.csmb-border:hover:after, button.flickr.csmb-border:focus:after, button.flickr.csmb-border:active:after {
+	border: solid 2px #c7c7c7; }
+
+
+.git {
+	background-color: #f4f4f4;
+	background-position: 0 -112px; }
+.git.csmb {
+    box-shadow: inset 0 1px 2px 0 white; }
+.git.csmb-border:after {
+    border: solid 2px #dbdbdb; }
+
+a.git:hover, a.git:focus, button.git:hover, button.git:focus {
+	background-color: white; }
+a.git:active, button.git:active {
+	background-color: #dbdbdb; }
+a.git.csmb-border:hover:after, a.git.csmb-border:focus:after, a.git.csmb-border:active:after, button.git.csmb-border:hover:after, button.git.csmb-border:focus:after, button.git.csmb-border:active:after {
+	border: solid 2px #c7c7c7; }
+
+.github {
+	background-color: #f4f4f4;
+	background-position: 0 -84px; }
+.github.csmb {
+    box-shadow: inset 0 1px 2px 0 white; }
+.github.csmb-border:after {
+    border: solid 2px #dbdbdb; }
+
+a.github:hover, a.github:focus, button.github:hover, button.github:focus {
+	background-color: white; }
+a.github:active, button.github:active {
+	background-color: #dbdbdb; }
+a.github.csmb-border:hover:after, a.github.csmb-border:focus:after, a.github.csmb-border:active:after, button.github.csmb-border:hover:after, button.github.csmb-border:focus:after, button.github.csmb-border:active:after {
+	border: solid 2px #c7c7c7; }
+
+.github-alt {
+	background-color: #383838;
+	background-position: -56px 0; }
+.github-alt.csmb {
+    box-shadow: inset 0 1px 2px 0 #787878; }
+.github-alt.csmb-border:after {
+    border: solid 2px #1f1f1f; }
+
+a.github-alt:hover, a.github-alt:focus, button.github-alt:hover, button.github-alt:focus {
+	background-color: #525252; }
+a.github-alt:active, button.github-alt:active {
+	background-color: #1f1f1f; }
+a.github-alt.csmb-border:hover:after, a.github-alt.csmb-border:focus:after, a.github-alt.csmb-border:active:after, button.github-alt.csmb-border:hover:after, button.github-alt.csmb-border:focus:after, button.github-alt.csmb-border:active:after {
+	border: solid 2px #0b0b0b; }
+
+.gplus {
+	background-color: #dd4b39;
+	background-position: 0 -140px; }
+.gplus.csmb {
+    box-shadow: inset 0 1px 2px 0 #f0aea6; }
+.gplus.csmb-border:after {
+    border: solid 2px #c23321; }
+
+a.gplus:hover, a.gplus:focus, button.gplus:hover, button.gplus:focus {
+	background-color: #e47365; }
+a.gplus:active, button.gplus:active {
+	background-color: #c23321; }
+a.gplus.csmb-border:hover:after, a.gplus.csmb-border:focus:after, a.gplus.csmb-border:active:after, button.gplus.csmb-border:hover:after, button.gplus.csmb-border:focus:after, button.gplus.csmb-border:active:after {
+	border: solid 2px #a12a1c; }
+
+
+.instagram {
+	background-color: #937266;
+	background-position: -28px -392px; }
+.instagram.csmb {
+   	box-shadow: inset 0 1px 2px 0 #c8b7b0; }
+.instagram.csmb-border:after {
+    border: solid 2px #755b51; }
+
+a.instagram:hover, a.instagram:focus, button.instagram:hover, button.instagram:focus {
+	background-color: #a98d83; }
+a.instagram:active, button.instagram:active {
+	background-color: #755b51; }
+a.instagram.csmb-border:hover:after, a.instagram.csmb-border:focus:after, a.instagram.csmb-border:active:after, button.instagram.csmb-border:hover:after, button.instagram.csmb-border:focus:after, button.instagram.csmb-border:active:after {
+	border: solid 2px #5e4941; }
+
+.instagram-alt {
+	background-color: #3f729b;
+	background-position: -28px -420px; }
+.instagram-alt.csmb {
+    box-shadow: inset 0 1px 2px 0 #8ab1cf; }
+.instagram-alt.csmb-border:after {
+    border: solid 2px #305777; }
+
+a.instagram-alt:hover, a.instagram-alt:focus, button.instagram-alt:hover, button.instagram-alt:focus {
+	background-color: #548cb9; }
+a.instagram-alt:active, button.instagram-alt:active {
+	background-color: #305777; }
+a.instagram-alt.csmb-border:hover:after, a.instagram-alt.csmb-border:focus:after, a.instagram-alt.csmb-border:active:after, button.instagram-alt.csmb-border:hover:after, button.instagram-alt.csmb-border:focus:after, button.instagram-alt.csmb-border:active:after {
+	border: solid 2px #25435c; }
+
+.linkedin {
+	background-color: #0e76a8;
+	background-position: 0 -196px; }
+.linkedin.csmb {
+    box-shadow: inset 0 1px 2px 0 #46b8f0; }
+.linkedin.csmb-border:after {
+    border: solid 2px #0a5579; }
+
+a.linkedin:hover, a.linkedin:focus, button.linkedin:hover, button.linkedin:focus {
+	background-color: #1297d7; }
+a.linkedin:active, button.linkedin:active {
+	background-color: #0a5579; }
+a.linkedin.csmb-border:hover:after, a.linkedin.csmb-border:focus:after, a.linkedin.csmb-border:active:after, button.linkedin.csmb-border:hover:after, button.linkedin.csmb-border:focus:after, button.linkedin.csmb-border:active:after {
+	border: solid 2px #073c56; }
+
+.mail {
+	background-color: #f4f4f4;
+	background-position: 0 -224px; }
+.mail.csmb {
+    box-shadow: inset 0 1px 2px 0 white; }
+.mail.csmb-border:after {
+    border: solid 2px #dbdbdb; }
+
+a.mail:hover, a.mail:focus, button.mail:hover, button.mail:focus {
+	background-color: white; }
+a.mail:active, button.mail:active {
+	background-color: #dbdbdb; }
+a.mail.csmb-border:hover:after, a.mail.csmb-border:focus:after, a.mail.csmb-border:active:after, button.mail.csmb-border:hover:after, button.mail.csmb-border:focus:after, button.mail.csmb-border:active:after {
+	border: solid 2px #c7c7c7; }
+
+a.rss:hover, a.rss:focus, button.rss:hover, button.rss:focus {
+	background-color: #f29d5e; }
+a.rss:active, button.rss:active {
+	background-color: #d86612; }
+a.rss.csmb-border:hover:after, a.rss.csmb-border:focus:after, a.rss.csmb-border:active:after, button.rss.csmb-border:hover:after, button.rss.csmb-border:focus:after, button.rss.csmb-border:active:after {
+	border: solid 2px #b5550f; }
+
+.twitter {
+	background-color: #00acee;
+	background-position: 0 -336px; }
+.twitter.csmb {
+    box-shadow: inset 0 1px 2px 0 #6ed7ff; }
+.twitter.csmb-border:after {
+    border: solid 2px #0087bb; }
+
+a.twitter:hover, a.twitter:focus, button.twitter:hover, button.twitter:focus {
+	background-color: #22c2ff; }
+a.twitter:active, button.twitter:active {
+	background-color: #0087bb; }
+a.twitter.csmb-border:hover:after, a.twitter.csmb-border:focus:after, a.twitter.csmb-border:active:after, button.twitter.csmb-border:hover:after, button.twitter.csmb-border:focus:after, button.twitter.csmb-border:active:after {
+	border: solid 2px #006b95; }
+
+
+.youtube {
+	background-color: #f4f4f4;
+	background-position: 0 -420px; }
+.youtube.csmb {
+    box-shadow: inset 0 1px 2px 0 white; }
+.youtube.csmb-border:after {
+    border: solid 2px #dbdbdb; }
+
+a.youtube:hover, a.youtube:focus, button.youtube:hover, button.youtube:focus {
+	background-color: white; }
+a.youtube:active, button.youtube:active {
+	background-color: #dbdbdb; }
+a.youtube.csmb-border:hover:after, a.youtube.csmb-border:focus:after, a.youtube.csmb-border:active:after, button.youtube.csmb-border:hover:after, button.youtube.csmb-border:focus:after, button.youtube.csmb-border:active:after {
+	border: solid 2px #c7c7c7; }
+
+.youtube-alt {
+	background-color: #c4302b;
+	background-position: 0 -448px; }
+.youtube-alt.csmb {
+ 	box-shadow: inset 0 1px 2px 0 #e58c89; }
+.youtube-alt.csmb-border:after {
+    border: solid 2px #9a2622; }
+
+a.youtube-alt:hover, a.youtube-alt:focus, button.youtube-alt:hover, button.youtube-alt:focus {
+	background-color: #d74f4b; }
+a.youtube-alt:active, button.youtube-alt:active {
+	background-color: #9a2622; }
+a.youtube-alt.csmb-border:hover:after, a.youtube-alt.csmb-border:focus:after, a.youtube-alt.csmb-border:active:after, button.youtube-alt.csmb-border:hover:after, button.youtube-alt.csmb-border:focus:after, button.youtube-alt.csmb-border:active:after {
+	border: solid 2px #7b1e1b; }
+
+.facebook.alt {
+	background-position: -28px -84px; }
+
+.foursquare-alt.alt {
+	background-position: -28px -140px; }
+
+.twitter.alt {
+	background-position: 0 -364px; }
+
+.youtube-alt.alt {
+	background-position: -28px -476px; }
